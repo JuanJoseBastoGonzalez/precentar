@@ -1,0 +1,35 @@
+.pagina-abriggos{
+    display: grid;
+    grid-template-columns: 33% 33% 33% ;
+}
+.section{
+    margin: 0 10px;
+}
+.abrigos{
+    width:auto;
+    height: 250px;   
+}
+.prenda{
+    display: flex;
+    justify-content: scenter;
+}
+.foto-prenda{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.agregar{
+    background: green;
+    color:white;
+    border:none;
+    font-size: 20px;
+    border-radius: 4px;
+}
+.agregar:hover{
+    cursor:pointer
+}   
+.inferior{
+    display: flex;
+    justify-content: space-between;
+    
+}
